@@ -114,6 +114,13 @@ ol li{
     padding: 1rem;
 
   }
-
+  .task h1{
+    font-size: 2rem;
+  }
+  ol li{
+    
+    gap: .5rem;
+    
+  }
   
 }
