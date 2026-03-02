@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const ToDoList = () => {
-  const [tasks,setTasks]=useState(['mamadou ','musa','lut','issa','adam'])
+  const [tasks,setTasks]=useState([]);
   const [newTask,setNewTask]=useState('');
 
   const handleTaskChange=(e)=>{
