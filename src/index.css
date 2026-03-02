@@ -102,3 +102,18 @@ ol li{
   flex: 1;
 }
 
+@media screen and (max-width:500px) {
+  .task{
+    width: 100%;
+    padding: 1rem;
+
+  }
+
+  .container{
+    width: 100%;
+    padding: 1rem;
+
+  }
+
+  
+}
