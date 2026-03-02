@@ -1,0 +1,104 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace, Arial, Helvetica, sans-serif;
+}
+
+body{
+  background: linear-gradient(#dddff8 0%,#e93c581f 100%);
+}
+
+.task{
+  width: 600px;
+  margin: auto;
+  min-height: 100vh;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  background:linear-gradient(rgb(171, 211, 171) 0%,rgba(27, 187, 16, 0.6) 100%) ;
+  padding: 2rem;
+  border-radius: 10px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.task h1{
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+input[type="text"]{
+  padding:0.5rem 1rem;
+  color: #111;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.add-btn{
+  padding: .5rem ;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color:rgb(0, 153, 64) ;
+  color: #fff;
+  cursor: pointer;
+}
+
+.add-btn:hover{
+  background-color:rgb(0, 153, 100) ;
+}
+
+ol button{
+  padding: .1rem;
+  margin:  .2rem;
+  border: none;
+  outline: none;
+
+}
+.delete-btn{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #900;
+  text-transform: capitalize;
+  color: #fff;
+}
+.delete-btn:hover{
+  background-color: #500;
+}
+
+.move-up-btn{
+  padding:.1rem .5rem ;
+  background-color: #009;
+  border-radius: 5px;
+}
+.move-down-btn{
+   padding:.1rem .5rem ;
+  background-color: rgba(102, 0, 31, 0.904);
+  border-radius: 5px;
+}
+
+ol{
+  list-style: none;
+  
+}
+
+ol li{
+  border: 2px solid ;
+  padding: 0 1rem ;
+  margin: .5rem 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.text{
+  flex: 1;
+}
+
